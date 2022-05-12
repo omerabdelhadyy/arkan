@@ -1,0 +1,289 @@
+.cardContiner {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    box-shadow: -1px 2px 1px 1px rgba(118, 94, 94, 0.75);
+    border: solid;
+    border-width: 1px;
+    /* padding-inline: 30px; */
+    border-radius: 10px;
+    margin: 20px;
+    /* width: 100%; */
+    height: fit-content;
+    width: 15%;
+    position: relative;
+}
+
+.imageNFT {
+    background-color: #ffff;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    border: solid;
+}
+
+.imageNFT img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.titleNFT {
+    margin: 15px;
+    font-size: 17px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.buttonBuy {
+    width: 80%;
+    /* background-color: #19242eb9; */
+    background-color: #4E7499;
+    border: solid;
+    border-width: 0ch;
+    padding: 7px;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+/* .buttonBuy:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+} */
+.buttonBuy span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.buttonBuy span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.buttonBuy:hover span {
+    padding-right: 15px;
+}
+
+.buttonBuy:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.divTitle {
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.NftName {
+    font-size: 18px;
+    color: #D7E7E4;
+    width: 60%;
+}
+
+.divTitleback {
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    padding-inline: 5px;
+    /* margin-left: 5px; */
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    border: solid;
+    border-width: 0ch;
+    font-size: 20px;
+}
+
+.divTitleback h1 {
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+
+.titleForm {
+    font-size: 25px;
+    margin: 0%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.priceNFT {
+    margin: 0%;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+
+.priceNFT span {
+    font-size: 15px;
+}
+
+.continerSystem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: red; */
+
+}
+
+.divContinerSystem {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.divSystem {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.divSystem h1 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    width: 20px;
+    /* background-color: red; */
+    text-align: center;
+    margin: 0%;
+}
+
+.payment {}
+
+.divRate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divRate h2 {
+    font-size: 12px;
+    margin: 0%;
+    color: rgba(102, 102, 102, 0.87);
+    margin-left: 4px;
+    margin-top: 1.5px;
+}
+
+
+
+.divList {
+    align-items: flex-start;
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 60px;
+    margin-left: 5px;
+
+}
+
+.numbers {
+    margin: 0%;
+    font-size: 20px;
+    /* padding: 20px; */
+    /* background-color: rgb(77, 59, 59); */
+    /* background-color: #36383acd; */
+    width: 20px;
+    /* margin-inline: 4px; */
+    /* padding-inline: 10px; */
+    height: fit-content;
+    text-align: center;
+    align-items: center;
+    margin-inline: 7px;
+    margin-left: 10px;
+    width: 35px;
+    border-radius: 10px;
+    border: solid;
+    border-width: 0px;
+    padding: 1px;
+    border-color: rgb(58, 55, 55);
+    background-color: #4e7499d4;
+    color: #fff;
+}
+
+.numbers h1 {
+    margin: 0%;
+    font-size: 14px;
+    /* color: #fff; */
+    padding: 3px;
+}
+
+.titleAvailable {
+    font-size: 11px;
+    margin: 0%;
+    text-align: center;
+    /* background-color: rgb(77, 59, 59); */
+    background-color: #4e7499d4;
+    /* background-color: #fff; */
+    padding: 7px;
+    border-radius: 10px;
+    color: #fff;
+    width: 80%;
+    height: fit-content;
+    border: solid;
+    border-width: 2px;
+    /* border-color: rgb(58, 55, 55); */
+    color: #fff;
+}
+
+.divInstallment {
+    width: 100%;
+    display: grid;
+    /* grid-auto-columns: 150px; */
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+    /* background-color: red;  */
+
+
+}
+
+.divProfit {
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-block: 10px;
+    color: rgba(0, 0, 0, 0.868);
+}
+
+.divProfit h1 {
+    margin: 0%;
+    font-size: 17px;
+}
+
+.divProfit h2 {
+    margin: 0%;
+    font-size: 17px;
+    color: #3073B3;
+}
+
+.profitTitle {
+    position: absolute;
+    top: 0%;
+    right: 2%;
+    margin: 2%;
+    font-size: 18px;
+    /* color: rgb(42, 139, 42); */
+    color: #4E7499;
+
+}

@@ -1,0 +1,104 @@
+.continer {
+    /* background-color: red; */
+    width: 30%;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(68, 68, 68, 0.37);
+    box-shadow: -0.5px 1px 1px 0px rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    margin: 10px;
+
+}
+
+.divHead {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: solid;
+    border-width: 0ch;
+    border-bottom-width: 1px;
+
+}
+
+.divHead img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+
+}
+
+.divHead h1 {
+    font-size: 15px;
+    margin: 0%;
+    margin-left: 10px;
+    color: #1355D4;
+    font-weight: 450;
+}
+
+.divHead h2 {
+    font-size: 16px;
+    margin: 0%;
+    /* margin-right: 10px; */
+    color: #4E7499;
+}
+
+.textFee {
+    flex-direction: column;
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* width: 40%; */
+}
+
+.textFee h3 {
+    margin: 0%;
+    font-size: 8px;
+    color: #4E7499;
+}
+
+.divHead div {
+    display: flex;
+    align-items: center;
+}
+
+.divnumbersChart {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.divnumbersChart h1 {
+    color: green;
+    margin: 0%;
+    font-size: 13px;
+}
+
+.divnumbersChart h2 {
+    margin: 0%;
+    font-size: 7px;
+    line-height: 2;
+    letter-spacing: -0.6px;
+}
+
+.divRightNumber {
+    display: flex;
+    align-Items: flex-end;
+    flex-Direction: column
+}
+
+.titleChart {
+    margin: 0%;
+    text-align: center;
+    font-size: 13px;
+    color: #4E7499;
+}
+
+.titleDuration {
+    margin: 0%;
+    font-size: 14px;
+    color: #4E7499;
+    margin-top: 5px;
+}

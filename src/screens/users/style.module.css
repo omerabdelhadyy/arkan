@@ -1,0 +1,15 @@
+.continer {
+    /* background-color: #E8FBFF; */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.titleUsers {
+    font-size: 30px;
+    text-align: center;
+    margin: 7px;
+}
