@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/arkan/static/css/main.f9b61c62.css",
-    "main.js": "/arkan/static/js/main.e154c54c.js",
+    "main.js": "/arkan/static/js/main.8b6287ba.js",
     "static/js/787.db9be041.chunk.js": "/arkan/static/js/787.db9be041.chunk.js",
     "static/media/nft3.png": "/arkan/static/media/nft3.a3f68fde5f1f9e3db7fe.png",
     "static/media/nft2.png": "/arkan/static/media/nft2.464176ac8a667e170ad6.png",
     "static/media/nft.png": "/arkan/static/media/nft.4d3967e54cf65850203b.png",
     "index.html": "/arkan/index.html",
     "main.f9b61c62.css.map": "/arkan/static/css/main.f9b61c62.css.map",
-    "main.e154c54c.js.map": "/arkan/static/js/main.e154c54c.js.map",
+    "main.8b6287ba.js.map": "/arkan/static/js/main.8b6287ba.js.map",
     "787.db9be041.chunk.js.map": "/arkan/static/js/787.db9be041.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9b61c62.css",
-    "static/js/main.e154c54c.js"
+    "static/js/main.8b6287ba.js"
   ]
 }
